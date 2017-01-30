@@ -18,13 +18,19 @@ cerdo.src="cerdo.png";
 cerdo.addEventListener("load",dibujarCerdo);
 
 function dibujarVaca(evento){
-  papel.drawImage(vaca,0,0)
+  var x=aleatorio(0,400);
+  var y=aleatorio(0,400);
+  papel.drawImage(vaca,x,y)
 }
 function dibujarPollo(evento){
-  papel.drawImage(pollo,70,0)
+  var x=aleatorio(0,400);
+  var y=aleatorio(0,400);
+  papel.drawImage(pollo,x,y)
 }
 function dibujarCerdo(evento){
-  papel.drawImage(cerdo,0,50)
+  var x=aleatorio(0,400);
+  var y=aleatorio(0,400);
+  papel.drawImage(cerdo,x,y)
 }
 
 function dibujar(evento){
